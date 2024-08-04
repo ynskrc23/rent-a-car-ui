@@ -44,7 +44,7 @@ function BrandUpdate() {
 
 	return (
 		<div>
-			<h1>Update Brand</h1>
+			<h4>Update Brand</h4>
 			{error && <p className="text-danger">{error}</p>}
 			<Form onSubmit={handleUpdateBrand}>
 				<Form.Group className="mb-3">

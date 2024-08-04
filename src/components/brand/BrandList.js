@@ -45,7 +45,7 @@ function BrandList() {
 
 	return (
 		<div>
-			<h1>Brands List</h1>
+			<h4>Brands List</h4>
 			{error && <p className="text-danger">{error}</p>}
 			<Link to="/add-brand">
 				<Button variant="primary" className="mb-3">Add New Brand</Button>

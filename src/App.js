@@ -6,6 +6,9 @@ import Home from "./components/home/Home";
 import Brand from "./components/brand/BrandList";
 import BrandAdd from "./components/brand/BrandAdd";
 import BrandUpdate from "./components/brand/BrandUpdate";
+import Model from "./components/model/ModelList";
+import ModelAdd from "./components/model/ModelAdd";
+import ModelUpdate from "./components/model/ModelUpdate";
 
 function App() {
 	return (
@@ -19,6 +22,7 @@ function App() {
 							<Nav className="me-auto">
 								<Nav.Link href="/">Home</Nav.Link>
 								<Nav.Link href="/brands">Brand</Nav.Link>
+								<Nav.Link href="/models">Model</Nav.Link>
 							</Nav>
 						</Navbar.Collapse>
 					</Container>
@@ -29,6 +33,10 @@ function App() {
 						<Route path="/brands" element={<Brand />} />
 						<Route path="/add-brand" element={<BrandAdd />} />
 						<Route path="/update-brand/:id" element={<BrandUpdate />} />
+
+						<Route path="/models" element={<Model />} />
+						<Route path="/add-model" element={<ModelAdd />} />
+						<Route path="/update-model/:id" element={<ModelUpdate />} />
 					</Routes>
 				</Container>
 			</div>

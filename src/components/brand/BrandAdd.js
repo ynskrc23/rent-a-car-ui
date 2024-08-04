@@ -31,7 +31,7 @@ function BrandAdd() {
 
 	return (
 		<div>
-			<h1>Add New Brand</h1>
+			<h4>Add New Brand</h4>
 			{error && <p className="text-danger">{error}</p>}
 			<Form onSubmit={handleAddBrand}>
 				<Form.Group className="mb-3">
