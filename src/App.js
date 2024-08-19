@@ -12,6 +12,8 @@ import ModelUpdate from "./components/model/ModelUpdate";
 import Car from "./components/car/CarList";
 import CarAdd from "./components/car/CarAdd";
 import CarUpdate from "./components/car/CarUpdate";
+import Rental from "./components/rental/RentalList";
+import RentalAdd from "./components/rental/RentalAdd";
 
 function App() {
 	return (
@@ -27,6 +29,7 @@ function App() {
 								<Nav.Link href="/brands">Brand</Nav.Link>
 								<Nav.Link href="/models">Model</Nav.Link>
 								<Nav.Link href="/cars">Car</Nav.Link>
+								<Nav.Link href="/rentals">Rental</Nav.Link>
 							</Nav>
 						</Navbar.Collapse>
 					</Container>
@@ -45,6 +48,9 @@ function App() {
 						<Route path="/cars" element={<Car />} />
 						<Route path="/add-car" element={<CarAdd />} />
 						<Route path="/update-car/:id" element={<CarUpdate />} />
+
+						<Route path="/rentals" element={<Rental />} />
+						<Route path="/add-rental" element={<RentalAdd />} />
 					</Routes>
 				</Container>
 			</div>

@@ -19,3 +19,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![](https://github.com/ynskrc23/rent-a-car-ui/blob/master/image/modellist.PNG)
 ![](https://github.com/ynskrc23/rent-a-car-ui/blob/master/image/modeladd.PNG)
 ![](https://github.com/ynskrc23/rent-a-car-ui/blob/master/image/modeledit.PNG)
+
+### Rental Sayfası
+![](https://github.com/ynskrc23/rent-a-car-ui/blob/master/image/rentallist.PNG)
+![](https://github.com/ynskrc23/rent-a-car-ui/blob/master/image/rentaladd.PNG)
